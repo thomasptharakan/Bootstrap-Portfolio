@@ -14,7 +14,6 @@ Link to hosted site : https://thomasptharakan.github.io/Bootstrap-Portfolio/
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [File Structure](#file_structure)
 - [Badges](#badges)
 - [License](#license)

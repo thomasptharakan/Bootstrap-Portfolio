@@ -77,13 +77,8 @@ header.masthead {
 
 /* Limit skills div size */
 #skills, #contact{
-    width: 95%;
-    margin: 50px;
+    margin: 10px auto;
     padding:50px;
-    border-color: grey;
-    border-radius: 2px;
-    border-style: solid;
-    
 }
 
 /* Add hover with underline box-shadow on Link*/
