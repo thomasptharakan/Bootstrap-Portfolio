@@ -1,12 +1,12 @@
-# Thomas Tharakan - Portfolio Website
+# Thomas Tharakan - Bootstrap Portfolio Website
 
 ## Description
 
 This repository ("about-me") contains the code for a static portfolio website. The current website contains a few details about me, my avatar image and links to a few of the projects I have worked on.
 
-The Website is built using html and css and has been optimised with comments and and appropriate use of semantic tags. The site is responsive and has been configured for Desktops (>=900px+), smaller screens (<900px) screens.
+The Website is built using html, css and makes use of the bootstrap framework. The site has been optimised with comments and and appropriate use of semantic tags. The site is responsive and has been configured for Desktops
 
-Link to hosted site : https://thomasptharakan.github.io/about-me/
+Link to hosted site : https://thomasptharakan.github.io/Bootstrap-Portfolio/
 
 
 
@@ -23,7 +23,7 @@ Link to hosted site : https://thomasptharakan.github.io/about-me/
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/thomasptharakan/about-me
+   git clone https://github.com/thomasptharakan/Bootstrap-Portfolio
    
    ```
 
@@ -34,31 +34,22 @@ Link to hosted site : https://thomasptharakan.github.io/about-me/
 
 2. Open index.html in a browser
 
-![ScreenShot](assets/images/screen.png)
+![ScreenShot](/images/screen.png)
 
-
-## Credits
-
-Base code provide by Edx as part of the bootcamp.
 
 
 ## File_Structure
 ```
 
-├── assets
-│   ├── css
-│   │   ├── style.css
-│   └── images
-│       ├── screen.png
-│       ├── linkedin.png
-│       ├── cssCheatSheet.png
-│       ├── Avatar.png
-│       ├── 02-run-buddy.jpg
-│       ├── 02-portfolio-4.jpg
-│       ├── 02-portfolio-3.jpg
-│       ├── 02-portfolio-2.jpg
-│       ├── 02-portfolio-1.jpg
-│       └── 02-hero-bg.jpg
+├── css
+│   └── style.css
+├── images
+│   ├── screen.png
+│   ├── hero-bg.jpg
+│   ├── cssCheatSheet.png
+│   ├── Avatar.png
+│   ├── 02-portfolio-2.jpg
+│   └── 02-portfolio-1.jpg
 ├── index.html
 ├── LICENSE
 └── README.md
