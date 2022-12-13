@@ -1,25 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Default Meta Tage-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- CSS imports -->
+    <!--Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+    <!--Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico">
+    <!-- Custom Stylesheet  -->
     <link rel="stylesheet" href="/css/style.css">
+
     <!--Document Title-->
     <title>Bootstrap Portfolio</title>
 </head>
+
 <body>
-    
+
     <!-- Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <!-- A logo for the site -->
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Thomas Tharakan</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <!-- Collapsed Menu Text if Required -->
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
     <!-- Hero Section -->
+    <header class="jumbotron jumbotron-fluid masthead">
+        <div class="container h-100 ">
+            <div class="row h-100">
+                <div class="col-lg-9 my-auto"></div>
+                <div class="col-lg-3 my-auto">
+                    <div class="device-container profile-img-container">
+                        <img src="/images/avatar.png" class="img-fluid"
+                            alt="Avatar of Thomas Tharakan,a facial image with brown skin cropped hair wearing and aqaumarine v-neck t-shirt">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <!-- Work Section -->
+    <div class="card-deck" id="work">
+        <div class="card">
+            <a href="https://thomasptharakan.github.io/CSSCheatSheet/">
+                <img class="card-img-top" src="/images/cssCheatSheet.png"
+                    alt="An image of the website with a set of cards in a grid format each with a code snippet">
+                <div class="card-body">
+                    <h5 class="card-title">CSS Cheat Sheet</h5>
+                    <p class="card-text">A cheat sheet to some useful CSS code snippets</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://thomasptharakan.github.io/Static_Website_HoriSeon/">
+                <img class="card-img-top" src="/images/02-portfolio-2.jpg"
+                    alt=" A laptop with a calculator displayed on the sceen">
+                <div class="card-body">
+                    <h5 class="card-title">Company website</h5>
+                    <p class="card-text">Company website template the showcases use of grid to dosplay elements</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="#">
+                <img class="card-img-top" src="/images/02-portfolio-1.jpg" alt="Red LED dot arranged in a grid">
+                <div class="card-body">
+                    <h5 class="card-title">LED Wall</h5>
+                    <p class="card-text">Node/IOT - A sample project </p>
+                </div>
+            </a>
+        </div>
+    </div>
+
     <!-- Skills Section -->
+    <div id="skills">
+        <h2> Skills</h2>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">HTML</li>
+            <li class="list-group-item">CSS</li>
+            <li class="list-group-item">Web Design/Application Development</li>
+            <li class="list-group-item">React</li>
+            <li class="list-group-item">Git/Github/Gitlab</li>
+            <li class="list-group-item">APIs</li>
+        </ul>
+    </div>
+
     <!-- Contact Section -->
+    <div class="card-deck" id="contact">
+        <div class="row">
+            <div class="card">
+                <div class="card-body" id="about-me">
+                    <h5 class="card-title">About-Me</h5>
+                    <p class="card-text">Software enthusiast curently undergoing training to become a web developer.
+                        This website provides an overview of some of key projects that I have worked on as part of my
+                        training.</p>
+                </div>
+            </div>
+            <div class="card">
+                <a href="mailto:thomas.tharakan@thomastharakan.com">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Email: thomas.tharakan@thomastharakan.com</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="tel:1122334556">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tel: 1122343453</h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
     <!-- Footer -->
+    <!-- Requirements Not specifed on what needs to be done -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
